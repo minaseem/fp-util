@@ -1,0 +1,31 @@
+{
+  "name": "fp-util",
+  "version": "1.0.0",
+  "description": "Functional library for Javascript developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minaseem/fp-util.git"
+  },
+  "author": "naseem1992@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minaseem/fp-util/issues"
+  },
+  "homepage": "https://github.com/minaseem/fp-util#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-register": "^6.18.0"
+  },
+  "ava": {
+    "require": "babel-register"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
