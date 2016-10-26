@@ -5,7 +5,7 @@
 'use strict'
 import toArray from './toArray'
 
-const converge = (target, fns) => {
+const useWith = (target, fns) => {
   return function () {
     const args = toArray(arguments)
     const output = []
@@ -13,4 +13,4 @@ const converge = (target, fns) => {
     return target.apply(null, output)
   }
 }
-export default converge
+export default useWith
