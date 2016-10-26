@@ -18,7 +18,9 @@
   "homepage": "https://github.com/minaseem/fp-util#readme",
   "devDependencies": {
     "ava": "^0.16.0",
-    "babel-register": "^6.18.0"
+    "babel-register": "^6.18.0",
+    "cz-conventional-changelog": "^1.2.0",
+    "validate-commit-msg": "^2.8.2"
   },
   "ava": {
     "require": "babel-register"
@@ -27,5 +29,26 @@
     "presets": [
       "es2015"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ]
+    }
   }
 }
