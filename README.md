@@ -2,13 +2,13 @@
 
 Utility library with some useful functions, with functional programming being taken into consideration
 
-#Installation
+# Installation
 
 ```bash
 npm install fp-util --save
 ```
 
-#Functions available:
+# Functions available:
 
 - compose
 - curry2
