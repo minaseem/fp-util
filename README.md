@@ -8,7 +8,7 @@ Utility library with some useful functions, with functional programming being ta
 npm install fp-util --save
 ```
 
-# Functions available:
+# Functions available
 
 - compose
 - curry2
