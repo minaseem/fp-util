@@ -4,4 +4,4 @@
 
 'use strict'
 
-export default param => [].splice.call(param, 0)
+export default <T>(param: T[]): T[] => [].splice.call(param, 0)

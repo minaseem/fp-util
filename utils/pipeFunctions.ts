@@ -3,9 +3,6 @@
  */
 
 'use strict'
-
 import curry2 from './curry2'
 
-const prop_ = (prop, obj) => obj ? obj[prop] : undefined
-
-export default curry2(prop_)
+export default curry2((args: Function[], arg: any) => args.reduce((o, n) => n(o), arg))

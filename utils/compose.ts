@@ -7,7 +7,7 @@ import pipeFunctions from './pipeFunctions'
 import toArray from './toArray'
 
 const compose = function () {
-  const args = toArray(arguments).reverse()
+  const args = toArray(<any>arguments).reverse()
   return pipeFunctions(args)
 }
 

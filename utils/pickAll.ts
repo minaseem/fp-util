@@ -5,9 +5,9 @@
 'use strict'
 import curry from './curry2'
 
-const pickAll_ = (keys, obj) => keys.reduce((o, n) => {
-  o[n] = obj[n]
-  return o
+const pickAll_ = (keys: string[], obj: object) => keys.reduce((o, n) => {
+    (<any>o)[n] = (<any>obj)[n]
+    return o
 }, {})
 
 export default curry(pickAll_)
