@@ -1,0 +1,16 @@
+/**
+ * Created by imamudinnaseem on 6/21/17.
+ */
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "noUnusedLocals": true,
+    "declaration": false
+  }
+}

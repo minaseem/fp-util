@@ -1,17 +1,16 @@
 /**
  * Created by imamudin.naseem on 25/10/16.
  */
-
-'use strict'
-import curry2 from './curry2'
-
-const path_ = (path, obj) => path.reduce((o, n) => {
-  try {
-    return o[n]
-  }
-  catch (e) {
-    return null
-  }
-}, obj)
-
-export default curry2(path_)
+'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+var curry2_1 = require("./curry2");
+var path_ = function (path, obj) { return path.reduce(function (o, n) {
+    try {
+        return o[n];
+    }
+    catch (e) {
+        return null;
+    }
+}, obj); };
+exports.default = curry2_1.default(path_);
+//# sourceMappingURL=path.js.map
