@@ -3,5 +3,10 @@
  */
 
 'use strict'
-const defaultTo : any => ((a: any) => any) = defaultVal => param => (param === null || param === undefined || (<any>Number).isNaN(param)) ? defaultVal : param
+interface Number_ {
+    isNaN: Function
+}
+declare var Number: Number_;
+
+const defaultTo = (defaultVal: any): Function => (param: any) => (param === null || param === undefined || Number.isNaN(param)) ? defaultVal : param
 export default defaultTo

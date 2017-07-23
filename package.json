@@ -20,6 +20,7 @@
     "ava": "^0.16.0",
     "babel-register": "^6.18.0",
     "cz-conventional-changelog": "^1.2.0",
+    "typescript": "^2.4.2",
     "validate-commit-msg": "^2.8.2"
   },
   "ava": {

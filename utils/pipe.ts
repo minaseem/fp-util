@@ -7,9 +7,9 @@
 import pipeFunctions from './pipeFunctions'
 import toArray from './toArray'
 
-const pipe = function () {
-  const args = toArray(arguments)
-  return pipeFunctions(args)
+const pipe = function (...a: any[]) {
+    const args = toArray(a)
+    return pipeFunctions(args)
 }
 
 export default pipe

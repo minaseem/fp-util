@@ -4,11 +4,11 @@
 
 'use strict'
 
-export default fn => {
+export default (fn: Function) : Function => {
   return function () {
     const a = arguments[0]
     if (arguments.length === 2)
       return fn.apply(null, arguments)
-    else return b => fn(a, b)
+    else return (b: any) => fn(a, b)
   }
 }

@@ -1,6 +1,4 @@
 .idea
-index.js
 index.js.map
-utils/*.js
 utils/*.js.map
 node_modules

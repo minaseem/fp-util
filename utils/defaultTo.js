@@ -3,7 +3,6 @@
  */
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
-//export default defaultVal => param => (param === null || param === undefined || (<any>Number).isNaN(param)) ? defaultVal : param
-var add = function (a, b) { return a + b; };
-exports.default = add;
+var defaultTo = function (defaultVal) { return function (param) { return (param === null || param === undefined || Number.isNaN(param)) ? defaultVal : param; }; };
+exports.default = defaultTo;
 //# sourceMappingURL=defaultTo.js.map
