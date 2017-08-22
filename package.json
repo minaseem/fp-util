@@ -2,7 +2,8 @@
   "name": "fp-util",
   "version": "1.0.2",
   "description": "Functional library for Javascript developers",
-  "main": "index.js",
+
+  "types": "index.d.ts",
   "scripts": {
     "test": "ava"
   },
