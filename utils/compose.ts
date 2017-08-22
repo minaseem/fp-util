@@ -3,12 +3,10 @@
  */
 
 'use strict'
-import pipeFunctions from './pipeFunctions'
-import toArray from './toArray'
+import {pipeFunctions} from './pipeFunctions'
+import {toArray} from './toArray'
 
-const compose = function () {
+export const compose = function () {
   const args = toArray(<any>arguments).reverse()
   return pipeFunctions(args)
 }
-
-export default compose

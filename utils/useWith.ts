@@ -3,9 +3,9 @@
  */
 
 'use strict'
-import toArray from './toArray'
+import {toArray} from './toArray'
 
-const useWith: (a: Function, b: Function[]) => Function = (target, fns) => {
+export const useWith: (a: Function, b: Function[]) => Function = (target, fns) => {
     return function (...a: any[]) {
         const args = toArray(a)
         const output: any[] = []
@@ -13,4 +13,4 @@ const useWith: (a: Function, b: Function[]) => Function = (target, fns) => {
         return target.apply(null, output)
     }
 }
-export default useWith
+// export default useWith

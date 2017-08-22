@@ -8,5 +8,4 @@ interface Number_ {
 }
 declare var Number: Number_;
 
-const defaultTo = (defaultVal: any): Function => (param: any) => (param === null || param === undefined || Number.isNaN(param)) ? defaultVal : param
-export default defaultTo
+export const defaultTo = (defaultVal: any): Function => (param: any) => (param === null || param === undefined || Number.isNaN(param)) ? defaultVal : param

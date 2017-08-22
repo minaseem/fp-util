@@ -3,6 +3,6 @@
  */
 
 'use strict'
-import curry2 from './curry2'
+import {curry} from './curry2'
 
-export default curry2((args: Function[], arg?: any) => args.reduce((o, n) => n(o), arg))
+export const pipeFunctions = curry((args: Function[], arg?: any) => args.reduce((o, n) => n(o), arg))

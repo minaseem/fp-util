@@ -3,7 +3,7 @@
  */
 
 'use strict'
-import curry2 from './curry2'
+import {curry} from './curry2'
 
 const path_ = (path: string[], obj: object) => path.reduce((o, n) => {
     try {
@@ -14,4 +14,4 @@ const path_ = (path: string[], obj: object) => path.reduce((o, n) => {
     }
 }, obj)
 
-export default curry2(path_)
+export const path = curry(path_)

@@ -4,7 +4,7 @@
 
 'use strict'
 
-export default (fn: Function) : Function => {
+export const curry =  (fn: Function) : Function => {
   return function () {
     const a = arguments[0]
     if (arguments.length === 2)

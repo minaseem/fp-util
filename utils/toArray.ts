@@ -4,4 +4,4 @@
 
 'use strict'
 
-export default <T>(param: T[]): T[] => [].splice.call(param, 0)
+export const toArray = <T>(param: T[]): T[] => [].splice.call(param, 0)

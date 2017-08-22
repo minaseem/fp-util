@@ -4,8 +4,8 @@
 
 'use strict'
 
-import curry2 from './curry2'
+import {curry} from './curry2'
 
 const prop_ = (prop: string, obj: any): any => obj ? obj[prop] : undefined
 
-export default curry2(prop_)
+export const prop =  curry(prop_)
