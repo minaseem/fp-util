@@ -1,6 +1,6 @@
 {
   "name": "fp-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functional library for Javascript developers",
   "main": "index.js",
   "scripts": {
