@@ -2,8 +2,10 @@
   "name": "fp-util",
   "version": "1.0.3",
   "description": "Functional library for Javascript developers",
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
+  "main": "./index.js",
   "scripts": {
+    "prepublish": "tsc -d",
     "test": "ava"
   },
   "repository": {
