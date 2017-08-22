@@ -4,7 +4,7 @@
 
 'use strict'
 
-import path from '../utils/path'
+import {path} from '../utils/path'
 import test from 'ava'
 
 test('path', t => {

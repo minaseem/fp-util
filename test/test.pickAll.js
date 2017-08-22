@@ -4,10 +4,10 @@
 
 'use strict'
 
-import pickAll from '../utils/pickAll'
+import {pickAll} from '../utils/pickAll'
 import test from 'ava'
 
-test('path', t => {
+test('pickAll', t => {
   const obj = {
     a: 1,
     b: 'b',

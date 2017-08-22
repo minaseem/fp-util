@@ -4,10 +4,10 @@
 
 'use strict'
 
-import prop from '../utils/prop'
+import {prop} from '../utils/prop'
 import test from 'ava'
 
-test('path', t => {
+test('prop', t => {
   const obj = {
     a: 1,
     b: {

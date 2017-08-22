@@ -4,10 +4,10 @@
 
 'use strict'
 
-import useWith from '../utils/useWith'
+import {useWith} from '../utils/useWith'
 import test from 'ava'
 
-test('path', t => {
+test('useWith', t => {
   const add = (a, b) => a + b
   const mult3 = a => a * 3
   const add3 = a => a * 3

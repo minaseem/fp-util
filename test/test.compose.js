@@ -4,10 +4,10 @@
 
 'use strict'
 
-import compose from '../utils/compose'
+import {compose} from '../utils/compose.js'
 import test from 'ava'
 
-test('path', t => {
+test('compose', t => {
   const add3 = a => a + 3
   const mult3 = a => a * 3
   t.deepEqual(compose(add3, mult3)(10), 33)
