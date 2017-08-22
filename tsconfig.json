@@ -9,8 +9,6 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "removeComments": false,
-    "noUnusedLocals": true,
     "declaration": false
   }
 }
