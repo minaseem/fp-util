@@ -2,4 +2,5 @@
 index.js.map
 utils/*.js.map
 utils/*.js
+*.js
 node_modules
