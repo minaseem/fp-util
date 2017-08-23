@@ -19,3 +19,4 @@ npm install fp-util --save
 - toArray
 - mapObj
 
+
