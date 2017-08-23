@@ -5,4 +5,5 @@ utils/*.js
 utils/*.d.ts
 *.js
 *.d.ts
+!test/*
 node_modules
