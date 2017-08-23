@@ -4,7 +4,7 @@
 
 'use strict'
 export * from './utils/compose'
-export * from './utils/curry2'
+export * from './utils/curry'
 export * from './utils/path'
 export * from './utils/pipe'
 export * from './utils/prop'

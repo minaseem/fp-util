@@ -3,6 +3,6 @@
  */
 
 'use strict'
-import {curry} from './curry2'
+import {curry} from './curry'
 
 export const pipeFunctions = curry((args: Function[], arg?: any) => args.reduce((o, n) => n(o), arg))

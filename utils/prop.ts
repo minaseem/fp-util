@@ -4,7 +4,7 @@
 
 'use strict'
 
-import {curry} from './curry2'
+import {curry} from './curry'
 
 const prop_ = (prop: string, obj: any): any => obj ? obj[prop] : undefined
 

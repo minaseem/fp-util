@@ -3,7 +3,7 @@
  */
 
 'use strict'
-import {curry} from './curry2'
+import {curry} from './curry'
 
 const pickAll_ = (keys: string[], obj: object) => keys.reduce((o, n) => {
     (<any>o)[n] = (<any>obj)[n]

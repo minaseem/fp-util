@@ -3,7 +3,7 @@
  */
 
 'use strict'
-import {curry} from './curry2'
+import {curry} from './curry'
 
 const path_ = (path: string[], obj: object) => path.reduce((o, n) => {
     try {

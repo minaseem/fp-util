@@ -11,7 +11,7 @@ npm install fp-util --save
 # Functions available
 
 - compose
-- curry2
+- curry
 - path
 - pickAll
 - prop
