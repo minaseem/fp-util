@@ -8,6 +8,9 @@
     "test": "ava",
     "release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "release": {
+    "debug": false
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minaseem/fp-util.git"
