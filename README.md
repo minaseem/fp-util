@@ -17,4 +17,5 @@ npm install fp-util --save
 - prop
 - pipe
 - toArray
+- mapObj
 
