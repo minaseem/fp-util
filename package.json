@@ -5,7 +5,8 @@
   "main": "./index.js",
   "scripts": {
     "prepublish": "tsc",
-    "test": "ava"
+    "test": "ava",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "ava": "^0.16.0",
     "babel-register": "^6.18.0",
     "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^7.0.2",
     "typescript": "^2.4.2",
     "validate-commit-msg": "^2.8.2"
   },
